@@ -42,7 +42,7 @@ regd_users.post("/login", (req, res) => {
   };
 
   return res.status(200).json({
-    message: "User successfully logged in",
+    message: "Login successful",
     token: accessToken
   });
 });
